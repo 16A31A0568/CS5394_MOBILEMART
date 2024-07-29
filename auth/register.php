@@ -67,6 +67,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <input type="email" class="form-control" id="email" name="email" required>
         </div>
         <div class="form-group">
+            <label for="Phone-Number">Phone Number:</label>
+            <input type="Phone-Number" class="form-control" id="Phone-Number" name="Phone-Number" required>
+        </div>
+        <div class="form-group">
             <label for="password">Password:</label>
             <input type="password" class="form-control" id="password" name="password" required>
         </div>
