@@ -1,7 +1,5 @@
 <?php
 include 'includes/header1.php'; // Ensure you include your header
-session_start();
-
 if (!isset($_SESSION['user_id'])) {
     header('Location: login.php'); // Redirect if not logged in
     exit();
